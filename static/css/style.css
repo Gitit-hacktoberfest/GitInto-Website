@@ -1,0 +1,48 @@
+/* //////////////--------IMPORTED FONTS (IF ANY)----------------------///////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');  /* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');  /* font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap'); /* font-family: 'Fleur De Leah', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Merienda:wght@700&display=swap');  /* font-family: 'Fleur De Leah', cursive;
+font-family: 'Merienda', cursive;*/
+
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../images/fest08BannerLight.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+
+/* //////////---------------------HEADER-----------------///////////// */
+
+logo img{
+    height: 100px;
+}
+
+
+/* ////////////////////-------------SECTION-------------////////////////////////// */
+
+.content{
+    background-color: white;
+    text-align: justify;
+}
+
+
+
+
+/* ///////////////////////-----------FOOTER-------------------///////////////////// */
+
+
