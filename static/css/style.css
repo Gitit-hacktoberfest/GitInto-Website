@@ -22,14 +22,14 @@ font-family: 'Merienda', cursive;*/
   
   .scrollBar::-webkit-scrollbar-thumb {
     background: #F74700;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #677662, #F74700);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #677662, #F74700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to top, #677662, #F74700);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #677662, #F74700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
   .scrollBar::-webkit-scrollbar-thumb:hover {
     background: #F74700;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #677662, #F74700);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #677662, #F74700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #677662, #F74700);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #677662, #F74700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
 
@@ -63,7 +63,7 @@ header{
 
 @media screen and (max-width: 480px) {
     .intro-title{
-        transform: translate(0%,70%);
+        transform: translate(0%,60%);
     }
 }
 
@@ -78,6 +78,10 @@ header{
     background-position: center;
     background-size: cover; */
     background-color: #2B3531;
+}
+
+.navbar-brand img{
+    height: 100px;
 }
 
 .nav-item{
@@ -109,6 +113,7 @@ header{
 }
 
 
+
 .speaker{
     text-align: center;
     font-size: 2rem;
@@ -137,8 +142,6 @@ header{
         width:auto;
     }
 }
-
-
 
 .bg1{
     background-color: #91a88c8c;
