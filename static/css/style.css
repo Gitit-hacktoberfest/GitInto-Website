@@ -1,0 +1,191 @@
+/* //////////////--------IMPORTED FONTS (IF ANY)----------------------///////////////////// */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');  /* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');  /* font-family: 'Lobster', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap'); /* font-family: 'Fleur De Leah', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Merienda:wght@700&display=swap');  /* font-family: 'Fleur De Leah', cursive;
+font-family: 'Merienda', cursive;*/
+
+
+/* #F74700 */
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------ScrollBar---------------------------------------------------- */
+.scrollBar::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .scrollBar::-webkit-scrollbar-thumb {
+    background: #F74700;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #677662, #F74700);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #677662, #F74700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .scrollBar::-webkit-scrollbar-thumb:hover {
+    background: #F74700;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #677662, #F74700);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #677662, #F74700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+
+
+
+
+
+/* //////////---------------------HEADER-----------------///////////// */
+
+
+header{
+    background:linear-gradient(#f7460046,#91a88c77), url(../images/team1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+
+
+.intro-title{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    transform: translate(0%,210%);
+    /* font-family: 'Fleur De Leah', cursive; */
+}
+
+
+@media screen and (max-width: 480px) {
+    .intro-title{
+        transform: translate(0%,70%);
+    }
+}
+
+.navbar, .navbar-brand{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif; 
+}
+.navbar{
+    border-bottom: white inset 1px;
+    /* background-image: url(../images/fest08BannerDark.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background-color: #2B3531;
+}
+
+.nav-item{
+    /* text-transform: capitalize; */
+    padding-inline: 1rem;
+}
+
+
+
+
+
+
+/* ////////////////////-------------SECTION-------------////////////////////////// */
+
+.desc{
+    /* padding-top:4rem; */
+    padding-bottom: 4rem;
+    text-align: justify;
+}
+
+.about{
+    text-align: center;
+    font-size: 2rem;
+    color:#677662;
+    font-family: 'Fleur De Leah', cursive;
+    font-family: 'Merienda', cursive;
+    padding-top:4rem;
+
+}
+
+
+.speaker{
+    text-align: center;
+    font-size: 2rem;
+    color:#2B3531;
+    font-family: 'Fleur De Leah', cursive;
+    font-family: 'Merienda', cursive;
+    padding-top:4rem;
+
+}
+
+.speaker-img{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.speaker-img img{
+    height: 400px;
+    width:auto;
+}
+
+@media screen and (max-width:480px) {
+    .speaker-img img{
+        height: 200px;
+        width:auto;
+    }
+}
+
+
+
+.bg1{
+    background-color: #91a88c8c;
+}
+
+.bg2{
+    background-color: #67766280;
+}
+
+
+/* ///////////////////////-----------FOOTER-------------------///////////////////// */
+
+
+footer{
+    color:#F74700;
+    background-image: url(../images/festFooterDark.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* text-align:center; */
+    padding: 2rem;
+}
+
+.links{
+  text-align: center;
+}
+
+footer ul{
+    /* list-style: none; */
+    display:block;
+    padding-left: 0px !important;
+}
+
+footer li{
+    display:inline-block;
+}
+
+.social-media-links i{
+    margin:3rem;
+   color:#F74700;
+}
+
+
+@media screen and (max-width:400px) {
+
+  .social-media-links i{
+    margin:1rem;
+    text-align: center;
+}
+  
+}
