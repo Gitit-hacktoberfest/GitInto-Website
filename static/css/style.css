@@ -175,13 +175,13 @@ header{
 
 .bg2{
     background-color: #67766280;
-    height: 800px;
+    height: 100%;
 }
 
 @media screen and (max-width:480px) {
     .bg2{
         /* background-color: #67766280; */
-        height: 900px;
+        height: 100%;
     }
 }
 
@@ -193,20 +193,28 @@ header{
 /* /////////////////////////////////Sign in button\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .btn-center{
-    /* text-align: center; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center; 
     padding-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.sigin-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
 }
 
 @media screen and (max-width:480px) {
     .btn-center{
-        width: 110%;
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
 }
 
-a{
+a {
     text-decoration: none;
 }
 
