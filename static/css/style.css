@@ -387,3 +387,24 @@ footer li{
     text-align: justify;
     padding: 1rem;
   }
+
+
+  /* Scroll to top button */
+  #scroll_to_top{
+    position: fixed;
+    right: -100px;
+    bottom:  40px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F74700;
+    outline: none;
+    border: none;
+}
+#scroll_to_top.show{
+    right: 30px;
+}
