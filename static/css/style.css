@@ -408,3 +408,17 @@ footer li{
 #scroll_to_top.show{
     right: 30px;
 }
+
+@media only screen and (max-width:480px){
+    iframe{
+        
+         width:100%;
+         height:auto;
+    }
+    .contain{
+        margin-bottom:50px;
+    }
+}
+
+
+
